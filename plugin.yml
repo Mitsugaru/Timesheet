@@ -4,4 +4,3 @@ main: ${project.mainclass}
 version: ${project.version}
 url: ${project.url}
 author: mahoutsukaii
-name: Timesheet
