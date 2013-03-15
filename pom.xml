@@ -4,7 +4,7 @@
     <!-- Project properties. -->
     <groupId>com.amcgavin</groupId>
     <artifactId>Timesheet</artifactId>
-    <version>0.3-SNAPSHOT</version>
+    <version>0.3</version>
     <name>Timesheet</name>
     <description>Player time keeper for Bukkit</description>
     <url>http://jadon-mc.net/</url>
