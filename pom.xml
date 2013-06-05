@@ -21,7 +21,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.mainclass>com.amcgavin.playerlogger.LoggerPlugin</project.mainclass>
-        <site.base.url>http://dakanilabs.com/archiva/repository</site.base.url>
+        <site.base.url>http://repo.dakanilabs.com/content/repositories</site.base.url>
     </properties>
     <!-- Developers -->
     <developers>
@@ -51,7 +51,7 @@
         <repository>
             <id>release</id>
             <name>Release Repository</name>
-            <url>${site.base.url}/release</url>
+            <url>${site.base.url}/releases</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -75,7 +75,7 @@
     <distributionManagement>
         <repository>
             <id>internal</id>
-            <url>${site.base.url}/internal</url>
+            <url>${site.base.url}/releases</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
